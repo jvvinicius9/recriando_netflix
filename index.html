@@ -5,7 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->    
+    <link rel="stylesheet" href="style/responsivo.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
     <title>Netflix Clone</title>
+
 </head>
 <body>
 
@@ -24,19 +37,63 @@
     <main>
         <div class="filmePrincipal">
             <div class="container">
-                <h3 class="title">Vikings</h3>
+                <h3 class="title">VIKINGS</h3>
                 <p class="descricao">Um guerreiro viking busca a provação do líder de sua comunidade na abertura dessa série que narra as aventuras medievais de um grupo de nórdicos. Coemece a assistir Vikings agora mesmo!</p>
                 <div class="botoes">
                     <button type="button" class="botao">
-                        Assistir Agora
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
                     </button>
                     <button type="button" class="botao">
-                        Mais Informações
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
                     </button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="carroselFilmes">
+        <div class="owl-carousel owl-theme">
+            <div class="boxFilm">
+                <img src="img/mini1.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini2.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini3.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini4.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini5.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini6.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini7.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini8.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini9.jpg" alt="">
+            </div>
+            <div class="boxFilm">
+                <img src="img/mini10.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/fef921bb7a.js" crossorigin="anonymous"></script>
+
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+
+    <script src ="js/owl/setup.js"></script>
 
 </body>
 </html>
