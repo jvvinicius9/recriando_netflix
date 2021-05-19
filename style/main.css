@@ -45,7 +45,7 @@ header nav a:hover{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/vikings-capa.jpg);
 
-    height: 500px;
+    height: 40rem;
     background-size: cover;
     background-position: 50%;
 
